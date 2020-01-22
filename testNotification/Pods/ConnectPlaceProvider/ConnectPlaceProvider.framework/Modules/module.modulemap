@@ -1,0 +1,11 @@
+framework module ConnectPlaceProvider {
+  umbrella header "ConnectPlaceProvider.h"
+
+  export *
+  module * { export * }
+}
+
+module ConnectPlaceProvider.Swift {
+    header "ConnectPlaceProvider-Swift.h"
+    requires objc
+}

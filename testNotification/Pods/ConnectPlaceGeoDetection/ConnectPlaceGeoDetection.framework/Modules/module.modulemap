@@ -1,0 +1,11 @@
+framework module ConnectPlaceGeoDetection {
+  umbrella header "ConnectPlaceGeoDetection.h"
+
+  export *
+  module * { export * }
+}
+
+module ConnectPlaceGeoDetection.Swift {
+    header "ConnectPlaceGeoDetection-Swift.h"
+    requires objc
+}

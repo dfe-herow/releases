@@ -1,0 +1,4 @@
+framework module HerowLocationDetection {
+  header "HerowLocationDetection-Swift.h"
+  requires objc
+}

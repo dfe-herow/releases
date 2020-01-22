@@ -1,0 +1,11 @@
+framework module HerowAnalytics {
+  umbrella header "HerowAnalytics.h"
+
+  export *
+  module * { export * }
+}
+
+module HerowAnalytics.Swift {
+    header "HerowAnalytics-Swift.h"
+    requires objc
+}

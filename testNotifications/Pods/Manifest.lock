@@ -1,0 +1,70 @@
+PODS:
+  - CocoaLumberjack/Core (3.5.3)
+  - CocoaLumberjack/Swift (3.5.3):
+    - CocoaLumberjack/Core
+  - ConnectPlaceActions (3.2.1):
+    - ConnectPlaceProvider (= 3.2.1)
+  - ConnectPlaceBeaconDetection (3.2.1):
+    - ConnectPlaceCommon (= 3.2.1)
+  - ConnectPlaceCommon (3.2.1):
+    - CocoaLumberjack/Swift (= 3.5.3)
+    - PromiseKit (= 6.8.4)
+  - ConnectPlaceDetection (3.2.1):
+    - ConnectPlaceProvider (= 3.2.1)
+  - ConnectPlaceGeoDetection (3.2.1):
+    - ConnectPlaceProvider (= 3.2.1)
+  - ConnectPlaceProvider (3.2.1):
+    - ConnectPlaceCommon (= 3.2.1)
+  - HerowAnalytics (5.2.1):
+    - HerowConnection (= 5.2.1)
+  - HerowConnection (5.2.1):
+    - ConnectPlaceActions (= 3.2.1)
+  - HerowLocationDetection (5.2.1):
+    - ConnectPlaceBeaconDetection (= 3.2.1)
+    - ConnectPlaceDetection (= 3.2.1)
+    - ConnectPlaceGeoDetection (= 3.2.1)
+    - HerowAnalytics (= 5.2.1)
+  - PromiseKit (6.8.4):
+    - PromiseKit/CorePromise (= 6.8.4)
+    - PromiseKit/Foundation (= 6.8.4)
+    - PromiseKit/UIKit (= 6.8.4)
+  - PromiseKit/CorePromise (6.8.4)
+  - PromiseKit/Foundation (6.8.4):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.8.4):
+    - PromiseKit/CorePromise
+
+DEPENDENCIES:
+  - HerowLocationDetection (~> 5.2.1)
+
+SPEC REPOS:
+  https://forge.herow.io/pub/Specs:
+    - ConnectPlaceActions
+    - ConnectPlaceBeaconDetection
+    - ConnectPlaceCommon
+    - ConnectPlaceDetection
+    - ConnectPlaceGeoDetection
+    - ConnectPlaceProvider
+    - HerowAnalytics
+    - HerowConnection
+    - HerowLocationDetection
+  https://github.com/cocoapods/specs.git:
+    - CocoaLumberjack
+    - PromiseKit
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
+  ConnectPlaceActions: f2ef1be3bdab3cb7fa1da10e774212c7a7491ac8
+  ConnectPlaceBeaconDetection: 0f8406f6fc8554be27bee66f72bdac7ec6b91704
+  ConnectPlaceCommon: fd93bcea800f1e286684759c51a047f3d1a48afa
+  ConnectPlaceDetection: a08ef1d7883f1d09f31321474c58bd10a2a9e962
+  ConnectPlaceGeoDetection: 03028f493a0d8a71f0f3fe594aace10bc401e737
+  ConnectPlaceProvider: 497f607368d05650d25c336628a47aa14bb08d25
+  HerowAnalytics: f029d5a0ef33c5bf8a3d4dbf1f241fab754ed348
+  HerowConnection: 95868b7f888f95e540e6182cf506a41fd9eb7cbb
+  HerowLocationDetection: 463fced0191eea591e195f68823be4edf032a99b
+  PromiseKit: 51794a832647e7b819336dc2279039ce9f1cc49b
+
+PODFILE CHECKSUM: dea74b0b0dda67f09728d868ee0dabcf0854c88e
+
+COCOAPODS: 1.7.5

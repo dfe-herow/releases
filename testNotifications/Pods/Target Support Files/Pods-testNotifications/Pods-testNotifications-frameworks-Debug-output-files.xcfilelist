@@ -1,0 +1,11 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ConnectPlaceActions.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ConnectPlaceBeaconDetection.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ConnectPlaceCommon.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ConnectPlaceDetection.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ConnectPlaceGeoDetection.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ConnectPlaceProvider.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HerowAnalytics.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HerowConnection.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HerowLocationDetection.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework

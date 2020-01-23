@@ -1,0 +1,12 @@
+${PODS_ROOT}/Target Support Files/Pods-testNotifications/Pods-testNotifications-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework
+${PODS_ROOT}/ConnectPlaceActions/ConnectPlaceActions.framework
+${PODS_ROOT}/ConnectPlaceBeaconDetection/ConnectPlaceBeaconDetection.framework
+${PODS_ROOT}/ConnectPlaceCommon/ConnectPlaceCommon.framework
+${PODS_ROOT}/ConnectPlaceDetection/ConnectPlaceDetection.framework
+${PODS_ROOT}/ConnectPlaceGeoDetection/ConnectPlaceGeoDetection.framework
+${PODS_ROOT}/ConnectPlaceProvider/ConnectPlaceProvider.framework
+${PODS_ROOT}/HerowAnalytics/HerowAnalytics.framework
+${PODS_ROOT}/HerowConnection/HerowConnection.framework
+${PODS_ROOT}/HerowLocationDetection/HerowLocationDetection.framework
+${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework

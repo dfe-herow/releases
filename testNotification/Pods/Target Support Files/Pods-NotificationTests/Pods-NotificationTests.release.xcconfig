@@ -1,8 +1,0 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CocoaLumberjack" "${PODS_CONFIGURATION_BUILD_DIR}/PromiseKit" "${PODS_ROOT}/ConnectPlaceActions" "${PODS_ROOT}/ConnectPlaceBeaconDetection" "${PODS_ROOT}/ConnectPlaceCommon" "${PODS_ROOT}/ConnectPlaceDetection" "${PODS_ROOT}/ConnectPlaceGeoDetection" "${PODS_ROOT}/ConnectPlaceProvider" "${PODS_ROOT}/HerowAnalytics" "${PODS_ROOT}/HerowConnection" "${PODS_ROOT}/HerowLocationDetection"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CocoaLumberjack/CocoaLumberjack.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PromiseKit/PromiseKit.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -l"sqlite3" -framework "CocoaLumberjack" -framework "ConnectPlaceActions" -framework "ConnectPlaceBeaconDetection" -framework "ConnectPlaceCommon" -framework "ConnectPlaceDetection" -framework "ConnectPlaceGeoDetection" -framework "ConnectPlaceProvider" -framework "Foundation" -framework "HerowAnalytics" -framework "HerowConnection" -framework "HerowLocationDetection" -framework "PromiseKit" -framework "SystemConfiguration" -framework "UIKit"
-PODS_BUILD_DIR = ${BUILD_DIR}
-PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
-PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
-PODS_ROOT = ${SRCROOT}/Pods
